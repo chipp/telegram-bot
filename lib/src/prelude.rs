@@ -18,6 +18,7 @@ pub use telegram_bot_raw::{CanReplySendAudio, CanSendAudio};
 pub use telegram_bot_raw::{CanReplySendContact, CanSendContact};
 pub use telegram_bot_raw::{CanReplySendLocation, CanSendLocation};
 pub use telegram_bot_raw::{CanReplySendMessage, CanSendMessage};
+pub use telegram_bot_raw::{CanReplySendPhoto, CanSendPhoto};
 pub use telegram_bot_raw::{CanReplySendVenue, CanSendVenue};
 pub use telegram_bot_raw::{CanUnbanChatMemberForChat, CanUnbanChatMemberForUser};
 pub use telegram_bot_raw::{ToReplyRequest, ToRequest};
