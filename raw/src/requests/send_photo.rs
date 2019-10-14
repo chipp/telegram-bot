@@ -23,7 +23,7 @@ pub struct SendPhoto<'s, 'c> {
 
 impl<'s, 'c> Request for SendPhoto<'s, 'c> {
     type Type = JsonRequestType<Self>;
-    type Response = JsonTrueToUnitResponse;
+    type Response = JsonIdResponse<Message>;
 
     fn serialize(&self) -> Result<HttpRequest, Error> {
         Self::Type::serialize(RequestUrl::method("sendPhoto"), self)
