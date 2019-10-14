@@ -100,7 +100,7 @@ where
     }
 }
 
-/// Send an audio
+/// Send a document
 pub trait CanSendDocument {
     fn document_url<'s, 'c, T>(&self, url: T) -> SendDocument<'s, 'c>
     where
